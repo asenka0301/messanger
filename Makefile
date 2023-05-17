@@ -5,4 +5,4 @@ start:
 	npm start
 
 lint:
-	npx eslint src/**
+	npx eslint "src/**"
