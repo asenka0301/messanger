@@ -3,6 +3,7 @@ import ChatHeader from './ChatHeader';
 import MessageForm from './MessageForm';
 import Messages from './Messages';
 import AddContactModal from './AddContactModal';
+import Contacts from './Contacts';
 
 const ChatPage = () => {
   const [modal, showModal] = useState(false);
@@ -21,6 +22,7 @@ const ChatPage = () => {
                 <span className="visually-hidden">+</span>
               </button>
             </div>
+            <Contacts />
           </div>
           <div className="col p-0 h-100">
             <div className="d-flex flex-column h-100">
